@@ -4869,7 +4869,8 @@
     "connections": {
       "BlogPost": [
         null,
-        "/dolorum-ut-in-voluptas-mollitia-et-saepe-quo-animi",
+        "/",
+        null,
         "/sunt-aut-facere-repellat-provident-occaecati-excepturi-optio-reprehenderit",
         "/qui-est-esse",
         "/ea-molestias-quasi-exercitationem-repellat-qui-ipsa-sit-aut",
@@ -4882,6 +4883,7 @@
         "/optio-molestias-id-quia-eum",
         "/et-ea-vero-quia-laudantium-autem",
         "/in-quibusdam-tempore-odit-est-dolorem",
+        "/dolorum-ut-in-voluptas-mollitia-et-saepe-quo-animi",
         "/voluptatem-eligendi-optio",
         "/eveniet-quod-temporibus",
         "/sint-suscipit-perspiciatis-velit-dolorum-rerum-ipsa-laboriosam-odio",
@@ -4968,9 +4970,7 @@
         "/quas-fugiat-ut-perspiciatis-vero-provident",
         "/laboriosam-dolor-voluptates",
         "/temporibus-sit-alias-delectus-eligendi-possimus-magni",
-        "/at-nam-consequatur-ea-labore-ea-harum",
-        "/",
-        null
+        "/at-nam-consequatur-ea-labore-ea-harum"
       ]
     }
   },

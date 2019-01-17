@@ -7,18 +7,18 @@ export default function blogTemplate({data}) {
       console.log(data);  
       //let postData = data.allBlogPost.edges;
       //console.log(postData);
-      const blog_data = data.allBlogPost.edges.map(post=>
-      <div>
-          <article className="p-lg-4">
-              <h1 clssName="text-center">{post.node.title}</h1>
-              <p dangerouslySetInnerHTML={{__html:post.node.body}}></p>
-          </article>
-      </div>
-    ) 
+     // const blog_data = data.allBlogPost.edges.map(post=>
+      
+    //) 
     return (
         <>
          <Layout></Layout>
-         {blog_data}
+         <div>
+          <article className="p-lg-4">
+              <h1 className="text-center">{data.allBlogPost.edges[0].node.title}</h1>
+              <p dangerouslySetInnerHTML={{__html:data.allBlogPost.edges[0].node.body}}></p>
+          </article>
+      </div>
         </>
   )
 }
