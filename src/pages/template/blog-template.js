@@ -7,6 +7,9 @@ export default function blogTemplate({data}) {
       console.log(data);  
       //let postData = data.allBlogPost.edges;
       //console.log(postData);
+      if(!data.allBlogPost.edges){
+        console.log("No Edge!!!!");
+      }
      // const blog_data = data.allBlogPost.edges.map(post=>
       
     //) 

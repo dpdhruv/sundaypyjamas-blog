@@ -8,7 +8,7 @@ exports.createPages = ({ graphql, actions }) => {
   // products, portfolio items, landing pages, etc.
   return graphql(`
     {
-      allBlogPost {
+      allBlogPost(limit:10){
         edges{
             node{
                 userId
