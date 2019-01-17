@@ -986,12 +986,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-13T08:41:59.956Z",
+      "buildTime": "2019-01-17T11:13:54.164Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "22010cd62a361eca403e29f3d236a525",
+        "contentDigest": "e963bcdc03814e12704b5120a4b50e09",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -4969,7 +4969,8 @@
         "/laboriosam-dolor-voluptates",
         "/temporibus-sit-alias-delectus-eligendi-possimus-magni",
         "/at-nam-consequatur-ea-labore-ea-harum",
-        "/"
+        "/",
+        null
       ]
     }
   },

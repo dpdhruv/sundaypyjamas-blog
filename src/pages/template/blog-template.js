@@ -4,9 +4,10 @@ import { graphql } from 'gatsby'
 import Layout from '../../components/layout';
  
 export default function blogTemplate({data}) {
-      let postData = data.allBlogPost.edges;
-      console.log(postData);
-      const blog_data = postData.map(post=>
+      console.log(data);  
+      //let postData = data.allBlogPost.edges;
+      //console.log(postData);
+      const blog_data = data.allBlogPost.edges.map(post=>
       <div>
           <article className="p-lg-4">
               <h1 clssName="text-center">{post.node.title}</h1>
