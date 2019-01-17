@@ -1,0 +1,13 @@
+.blog_card{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 1px #ccc;
+}
+
+
+.card img{
+display: block;
+max-height: 208px;
+width: 112%;
+position: relative;
+left: -15px;
+}
