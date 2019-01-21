@@ -8,7 +8,9 @@ exports.components = {
   "component---src-pages-template-blog-template-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\template\\blog-template.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\.cache\\dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\404.js"))),
+  "component---src-pages-admin-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\admin.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\page-2.js")))
+  "component---src-pages-page-2-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\page-2.js"))),
+  "component---src-pages-profile-js": hot(preferDefault(require("D:\\gatsby-learn\\sundaypyjamas-blog\\src\\pages\\profile.js")))
 }
 

@@ -266,7 +266,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -338,7 +341,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -459,7 +465,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -551,7 +560,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -691,7 +703,10 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -789,7 +804,7 @@
       "resolve": "D:/gatsby-learn/sundaypyjamas-blog",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "a5da1550653504efb4dbf6474ab57e2b",
+      "version": "d27db39740c58b79d749384bc48861d5",
       "pluginOptions": {
         "plugins": []
       },
@@ -809,6 +824,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "draft-js",
+            "version": "^0.10.5"
+          },
           {
             "name": "gatsby",
             "version": "^2.0.76"
@@ -871,7 +890,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "74b1ed806d875758cd783dd1cb360f53",
+        "contentDigest": "54e4946a470eeb55712dae45dcf3a6d7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -901,7 +920,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -986,12 +1008,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-17T12:48:03.937Z",
+      "buildTime": "2019-01-21T06:54:54.635Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "93850b283600fe1a88d035e9e6ebd498",
+        "contentDigest": "86e3fc0cf9b3ff529655e976d7935ef2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2968,6 +2990,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /admin/": {
+      "jsonName": "admin-d15",
+      "internalComponentName": "ComponentAdmin",
+      "path": "/admin/",
+      "component": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/admin.js",
+      "componentChunkName": "component---src-pages-admin-js",
+      "context": {},
+      "pluginCreator___NODE": "5f067654-7b87-5765-ad5c-d951a3933702",
+      "pluginCreatorId": "5f067654-7b87-5765-ad5c-d951a3933702",
+      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/admin.js",
+      "id": "SitePage /admin/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95d4552d067776b2395e208763998e50",
+        "description": "5f067654-7b87-5765-ad5c-d951a3933702",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -3004,6 +3046,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "9229b7fdb40f992135f726c9aa764d00",
+        "description": "5f067654-7b87-5765-ad5c-d951a3933702",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /profile/": {
+      "jsonName": "profile-2a3",
+      "internalComponentName": "ComponentProfile",
+      "path": "/profile/",
+      "component": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/profile.js",
+      "componentChunkName": "component---src-pages-profile-js",
+      "context": {},
+      "pluginCreator___NODE": "5f067654-7b87-5765-ad5c-d951a3933702",
+      "pluginCreatorId": "5f067654-7b87-5765-ad5c-d951a3933702",
+      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/profile.js",
+      "id": "SitePage /profile/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a1981848df296726fcf3737052da3f77",
         "description": "5f067654-7b87-5765-ad5c-d951a3933702",
         "owner": "internal-data-bridge"
       }
@@ -3051,7 +3113,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4fc360f2c385a870474e5d2fda038240"
+    "PLUGINS_HASH": "d1108f86788b9837bc84c499b1123a92"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -3069,6 +3131,7 @@
     "connections": {
       "BlogPost": [
         null,
+        "/",
         "/sunt-aut-facere-repellat-provident-occaecati-excepturi-optio-reprehenderit",
         "/qui-est-esse",
         "/ea-molestias-quasi-exercitationem-repellat-qui-ipsa-sit-aut",
@@ -3079,7 +3142,7 @@
         "/dolorem-dolore-est-ipsam",
         "/nesciunt-iure-omnis-dolorem-tempora-et-accusantium",
         "/optio-molestias-id-quia-eum",
-        "/"
+        null
       ]
     }
   },
@@ -3192,7 +3255,11 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "app-f4d": "692/path---app-f-4-d-201-7sTbSTl87iqB6HZaNdppH1kmSA",
+    "login-557": "624/path---login-557-29c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "profile-2a3": "971/path---profile-2-a-3-b0c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "admin-d15": "917/path---admin-d-15-2aa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "D:/gatsby-learn/sundaypyjamas-blog/src/pages/template/blog-template.js": {
@@ -3207,6 +3274,10 @@
       "query": "",
       "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/404.js"
     },
+    "D:/gatsby-learn/sundaypyjamas-blog/src/pages/admin.js": {
+      "query": "",
+      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/admin.js"
+    },
     "D:/gatsby-learn/sundaypyjamas-blog/src/pages/index.js": {
       "query": "query dGatsbyLearnSundaypyjamasBlogSrcPagesIndexJs2952240994 {\n  allBlogPost(limit: 10) {\n    edges {\n      node {\n        userId\n        id\n        title\n        body\n        path\n        slug\n      }\n    }\n  }\n}\n",
       "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/index.js"
@@ -3214,6 +3285,10 @@
     "D:/gatsby-learn/sundaypyjamas-blog/src/pages/page-2.js": {
       "query": "",
       "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/page-2.js"
+    },
+    "D:/gatsby-learn/sundaypyjamas-blog/src/pages/profile.js": {
+      "query": "",
+      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/pages/profile.js"
     }
   },
   "staticQueryComponents": {
@@ -3225,14 +3300,6 @@
       "query": "query dGatsbyLearnSundaypyjamasBlogSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
       "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/components/seo.js",
@@ -3240,6 +3307,14 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 1025518380
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "D:/gatsby-learn/sundaypyjamas-blog/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     }
   }
 }

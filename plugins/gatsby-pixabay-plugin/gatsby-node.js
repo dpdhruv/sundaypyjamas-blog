@@ -48,7 +48,7 @@ exports.sourceNodes = ({
         .then(data => {
             // For each query result (or 'hit')
             data.forEach(post => {
-
+                //post = post.slice(0,10);
                 post['slug']= post.title;
                 post['path']= '/'+post.title.replace(/ /g,"-");
                 console.log(post);
